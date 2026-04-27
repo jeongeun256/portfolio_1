@@ -141,7 +141,7 @@ h3 {
 /* --- Mobile --- */
 @media (max-width: 767px) {
     h2 {
-        font-size: clamp(4rem, 5vw, 5rem);
+        font-size: clamp(3rem, 5vw, 5rem);
     }
 
     .title-italic {
@@ -408,8 +408,7 @@ h3 {
 @media (max-width: 991px) {
     .main-visual-title {
         margin-left: 0px;
-        margin-top: 80px;
-        /* 비디오 위로 살짝 겹치면서 아래로 내려옴 */
+        margin-top: 0px;
         position: relative;
         z-index: 2;
     }
@@ -1646,6 +1645,7 @@ h3 {
     }
 
     .p03-info-text {
+        width: 90%;
         order: 1;
         height: auto;
     }
